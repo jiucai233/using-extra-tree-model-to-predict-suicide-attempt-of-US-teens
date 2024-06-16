@@ -1,4 +1,4 @@
 streamlit
 gdown
 joblib
-scikit-learn
+scikit-learn==0.0.post12
