@@ -15,7 +15,7 @@ output = 'model.pkl'
 def download_and_load_model(url, output):
     # 下载文件
     if not os.path.exists(output):
-        gdown.download(url, output, quiet=False)
+        gdown.download(url, output, quiet=True)
     
     # 确保文件已完整下载
     if os.path.exists(output):
