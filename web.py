@@ -124,10 +124,6 @@ def input_values():
     suicide_thinkingDict = {'Low to moderate': 0, 'High to severe': 1}
     suicide_thinking = suicide_thinkingDict[suicide_thinking]
 
-    suicide_attempt = st.radio('Suicide attempt', ('Never', 'Have attempted'), horizontal=True)
-    suicide_attemptDict = {'Never': 0, 'Have attempted': 1}
-    suicide_attempt = suicide_attemptDict[suicide_attempt]
-
     use_drug = st.radio('Drug addiction', ('Never', 'Have been used'), horizontal=True)
     use_drugDict = {'Never': 0, 'Have been used': 1}
     use_drug = use_drugDict[use_drug]
