@@ -1,4 +1,4 @@
 streamlit
 gdown
 joblib
-sklearn
+scikit-learn
